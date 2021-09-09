@@ -8,7 +8,7 @@
 
 
 答案 C:\Users\liwan\IdeaProjects\base-code\day04-code\src\main\java\leetcode
-```java
+```
 public class Q1047 {
 
     public String removeDuplicates(String S) {
@@ -27,3 +27,6 @@ public class Q1047 {
 }
 
 ```
+### 讲解：
+双指针： [0,top]是处理过的数据，(top,i]是不需要的数据，（i，末尾）是未知的数据，即processed，not needed, unknown.
+
